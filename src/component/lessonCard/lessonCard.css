@@ -1,18 +1,16 @@
-
 .kart {
   height: 200px;
-  width: 200px;
+  width: 230px;
   perspective: 300px;
   justify-self: center;
   margin: 1rem;
-
 }
 
 .kutu {
   width: 100%;
   height: 100%;
   position: absolute;
-
+ 
 }
 .on-taraf {
   height: inherit;
@@ -35,6 +33,7 @@
   background-color: rgb(15, 226, 241);
   font-size: 18px;
   padding-left: 0.5rem;
+  line-height: 1.5;
   font-family: "roboto";
   transform: rotatex(-180deg);
   backface-visibility: hidden;
@@ -44,4 +43,3 @@
 .kart:hover .arka-taraf {
   transform: rotatex(0deg);
 }
-

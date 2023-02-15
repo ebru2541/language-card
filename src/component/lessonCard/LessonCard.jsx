@@ -5,7 +5,7 @@ const LessonCard = ({ id, name, age, image }) => {
   
       <div className="kart">
         <div className="on-taraf kutu">
-          <img src={image} width="200px" height="200px" alt="" />
+          <img src={image} width="230px" height="200px" alt="" />
         </div>
         <div className="arka-taraf kutu">
           <div className="bilgi">
