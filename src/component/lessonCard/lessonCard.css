@@ -1,0 +1,47 @@
+
+.kart {
+  height: 200px;
+  width: 200px;
+  perspective: 300px;
+  justify-self: center;
+  margin: 1rem;
+
+}
+
+.kutu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+.on-taraf {
+  height: inherit;
+  width: inherit;
+  transform: rotatex(0deg);
+  transition: all 0.9s ease;
+  backface-visibility: hidden;
+}
+
+.kart:hover .on-taraf {
+  transform: rotatex(180deg);
+}
+
+.arka-taraf {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 226, 241);
+  font-size: 18px;
+  padding-left: 0.5rem;
+  font-family: "roboto";
+  transform: rotatex(-180deg);
+  backface-visibility: hidden;
+  transition: all 0.9s ease;
+}
+
+.kart:hover .arka-taraf {
+  transform: rotatex(0deg);
+}
+

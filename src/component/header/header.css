@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 15px solid yellow;
+}
+
+header h1 {
+  color: darkblue;
+  font-size: 50px;
+}
