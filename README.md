@@ -1,4 +1,5 @@
-SOLUTION
+## Project Skeleton
+```
 ├── public
 │ └── index.html
 ├── src
@@ -20,7 +21,14 @@ SOLUTION
 │ ├── index.js
 ├── package.json
 └── package-lock.json
+```
+## Expected Outcome
 
+![Languange](https://github.com/ebru2541/language-card/blob/master/src/languange.gif)
+```
+
+## Skills
+```
 - HTML
 
 - CSS
@@ -28,3 +36,4 @@ SOLUTION
 - JS
 
 - ReactJS
+```
